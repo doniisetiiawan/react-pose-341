@@ -10,6 +10,7 @@
     "react-animations": "^1.0.0",
     "react-dom": "^16.7.0",
     "react-popup": "^0.9.3",
+    "react-pose": "^4.0.4",
     "react-redux": "^6.0.0",
     "react-router-dom": "^4.3.1",
     "react-scripts": "2.1.2",
