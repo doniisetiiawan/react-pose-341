@@ -7,6 +7,7 @@ import About from './components/About';
 import Coins from './components/Coins';
 import Contact from './components/Contact';
 import Notes from './components/Notes';
+import Animations from './components/Animations';
 import Error404 from './components/Error/404';
 
 const AppRoutes = () => (
@@ -18,6 +19,7 @@ const AppRoutes = () => (
       <Route path="/contact" component={Contact} exact />
       <Route path="/notes" component={Notes} exact />
       <Route path="/notes/:noteId" component={Notes} exact />
+      <Route path="/animations" component={Animations} exact />
       <Route component={Error404} />
     </Switch>
   </App>
