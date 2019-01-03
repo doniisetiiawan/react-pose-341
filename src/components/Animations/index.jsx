@@ -1,5 +1,5 @@
 import React from 'react';
-import { fadeIn } from 'react-animations';
+import { fadeIn, bounce } from 'react-animations';
 import Radium, { StyleRoot } from 'radium';
 
 const styles = {
@@ -7,11 +7,15 @@ const styles = {
     animation: 'x 1s',
     animationName: Radium.keyframes(fadeIn, 'fadeIn'),
   },
+  bounce: {
+    animation: 'x 1s',
+    animationName: Radium.keyframes(bounce, 'bounce'),
+  },
 };
 
 const index = () => (
   <StyleRoot>
-    <div className="Animations" style={styles.fadeIn}>
+    <div className="Animations" style={styles.bounce}>
       <h1>This text will be animated</h1>
     </div>
   </StyleRoot>
